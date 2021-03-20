@@ -9,40 +9,43 @@ Data Source: Amazon Review datasets, Video Games Review dataset
 Software: Google Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS
 
 ## Created 4 tables on pgAdmin4
-1. Customers_table (customers_df)
 
+Customers_table (customers_df)
 ![](Images/customers_table.PNG)
 
-3. Products_table (products_df)
-
+Products_table (products_df)
 ![](Images/products_table.PNG)
 
-5. Review_id_table (review_id_df)
-
+Review_id_table (review_id_df)
 ![](Images/review_id_table.PNG)
 
-7. Vine_table (vine_df)
-
+Vine_table (vine_df)
 ![](Images/vine_table.PNG)
 
 ## Results
 ### Total number of reviews
-  - Vine reviews: 94 count
-  
- ![](Images/number_paid_reviews.PNG)
-  - Non-Vine reviews: 40,471 count
-  
- ![](Images/number_unpaid_reviews.PNG)
+
+- Vine reviews: 94 count
+![](Images/number_paid_reviews.PNG)
+
+
+- Non-Vine reviews: 40,471 count
+![](Images/number_unpaid_reviews.PNG)
   
 ### Total number of 5-star reviews
-- 5-star Vine reviews: 48 count
+
+5-star Vine reviews: 48 count/
 ![](Images/5star_paid_reviews.PNG)
-- 5-star Non-Vine reviews: 15,663 count
+
+5-star Non-Vine reviews: 15,663 count/
 ![](Images/5star_unpaid_reviews.PNG)
+
 ### Percentage of 5-star reviews
-  - % of 5-star Vine reviews: 51.06%
+
+Percentage of 5-star Vine reviews: 51.06%/
 ![](Images/percentage_paid_reviews.PNG)
-  - % of 5-star Non-Vine reviews: 38.70%
+
+Percentage of 5-star Non-Vine reviews: 38.70%/
 ![](Images/percentage_unpaid_reviews.PNG)
 
 ## Summary
