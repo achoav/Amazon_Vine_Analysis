@@ -42,7 +42,7 @@ Software: Google Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS
 ### Percentage of 5-star reviews
   - % of 5-star Vine reviews: 51.06%
 ![](Images/percentage_paid_reviews.PNG)
-  - % pof 5-star Non-Vine reviews: 38.70%
+  - % of 5-star Non-Vine reviews: 38.70%
 ![](Images/percentage_unpaid_reviews.PNG)
 
 ## Summary
