@@ -44,23 +44,24 @@ Vine_table (vine_df)
   
 ### Total number of 5-star reviews
 
-5-star Vine reviews: 48 count:
+*5-star Vine reviews: 48 count:
 
 ![](Images/5star_paid_reviews.PNG)
 
-5-star Non-Vine reviews: 15,663 count:
+*5-star Non-Vine reviews: 15,663 count:
 
 ![](Images/5star_unpaid_reviews.PNG)
 
 ### Percentage of 5-star reviews
 
-Percentage of 5-star Vine reviews: 51.06% percent:
+*Percentage of 5-star Vine reviews: 51.06% percent:
 
 ![](Images/percentage_paid_reviews.PNG)
 
-Percentage of 5-star Non-Vine reviews: 38.70% percent:
+*Percentage of 5-star Non-Vine reviews: 38.70% percent:
 
 ![](Images/percentage_unpaid_reviews.PNG)
+
 
 ## Summary
 51% of the reviews in the Vine program were 5 stars reviews whereas the percentage in the non-Vine reviews is only 39%. This describes a positivity bias for reviews in the Vine program.
