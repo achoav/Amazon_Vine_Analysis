@@ -60,7 +60,7 @@ Vine_table (vine_df)
 
 *Percentage of 5-star Non-Vine reviews: 38.70% percent:
 
-![](Images/percentage_unpaid_reviews.PNG)
+![](Images/percentage_unpaid_revies.PNG)
 
 
 ## Summary
