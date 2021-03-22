@@ -3,6 +3,7 @@ Perform ETL on Amazon Product Reviews, determine Bias of Vine Reviews
 This project analyzes Amazon Vine program and determines if there is a bias toward favorable reviews from Vine members.
 The analysis uses PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, load the transformed data into pgAdmin and calculate different metrics.
 We focused on the US reviews for video games.
+We used Google Colab to write both IPYNB files: "Amazon_Reviews_ETL" (that creates the 4 tables on pgAdmin), and "
 
 ## Resources
 Data Source: Amazon Review datasets, Video Games Review dataset
@@ -12,15 +13,20 @@ Software: Google Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS
 
 Customers_table (customers_df):
 
-![1  customers_table]
+![1  customers_table](https://user-images.githubusercontent.com/73545138/111931512-bd8da600-8a91-11eb-9bc5-6d3083a8cb2c.PNG)
 
 Products_table (products_df)
 
+![2  products_table](https://user-images.githubusercontent.com/73545138/111931692-207f3d00-8a92-11eb-9372-3e0577f44954.PNG)
 
 Review_id_table (review_id_df)
 
+![3  review_id_table](https://user-images.githubusercontent.com/73545138/111931706-2d9c2c00-8a92-11eb-84eb-cdac270c4dfd.PNG)
 
 Vine_table (vine_df)
+
+![4 vine_table](https://user-images.githubusercontent.com/73545138/111931710-2ffe8600-8a92-11eb-9ff5-2d172682232c.PNG)
+
 
 
 ## Results
