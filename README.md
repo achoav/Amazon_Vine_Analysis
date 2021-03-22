@@ -6,8 +6,10 @@ We focused on the US reviews for video games.
 We used Google Colab to write both IPYNB files: "Amazon_Reviews_ETL" (that creates the 4 tables on pgAdmin), and "
 
 ## Resources
-Data Source: Amazon Review datasets, Video Games Review dataset (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
-Software: Google Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS
+
+Data Source: Amazon Review datasets (https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt). I selected for this project the: Video Games Review dataset (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
+
+Software: Google Colab Notebook (https://colab.research.google.com/), PySpark (embeded on Google Colab), pgAdmin4 (http://127.0.0.1:60698/browser/), AWS (https://aws.amazon.com/)
 
 ## Created 4 tables on pgAdmin4
 
