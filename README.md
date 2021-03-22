@@ -1,19 +1,15 @@
 # Amazon_Vine_Analysis
-Perform ETL on Amazon Product Reviews, determine Bias of Vine Reviews. This project analyzes Amazon Vine program and determines if there is a bias toward favorable reviews from Vine members.
-
+Perform ETL on Amazon Product Reviews, determine Bias of Vine Reviews
+This project analyzes Amazon Vine program and determines if there is a bias toward favorable reviews from Vine members.
 The analysis uses PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, load the transformed data into pgAdmin and calculate different metrics.
-
-We focused on the US reviews for video games. We used Google Colab to write both IPYNB files: "Amazon_Reviews_ETL" (that creates the 4 tables on pgAdmin. Further we created a database on AWS called "Challenge16".
+We focused on the US reviews for video games.
+We used Google Colab to write both IPYNB files: "Amazon_Reviews_ETL.ipynb" (that creates the 4 tables on pgAdmin), and "Vine_Review_Analysis.ipynb"
 
 ## Resources
-
-Data Source: Amazon Review datasets (https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt). I selected for this project the: Video Games Review dataset (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
-
-Software: Google Colab Notebook (https://colab.research.google.com/), PySpark (embeded on Google Colab), pgAdmin4 (http://127.0.0.1:60698/browser/), AWS (https://aws.amazon.com/)
+Data Source: Amazon Review datasets, Video Games Review dataset
+Software: Google Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS
 
 ## Created 4 tables on pgAdmin4
-
-Also, exported table "VINE_TABLE" to a csv file called VINE_TABLE.CSV
 
 Customers_table (customers_df):
 
@@ -46,24 +42,23 @@ Vine_table (vine_df)
   
 ### Total number of 5-star reviews
 
-*5-star Vine reviews: 48 count:
+5-star Vine reviews: 48 count:
 
 ![](Images/5star_paid_reviews.PNG)
 
-*5-star Non-Vine reviews: 15,663 count:
+5-star Non-Vine reviews: 15,663 count:
 
 ![](Images/5star_unpaid_reviews.PNG)
 
 ### Percentage of 5-star reviews
 
-*Percentage of 5-star Vine reviews: 51.06% percent:
+Percentage of 5-star Vine reviews: 51.06% percent:
 
 ![](Images/percentage_paid_reviews.PNG)
 
-*Percentage of 5-star Non-Vine reviews: 38.70% percent:
+Percentage of 5-star Non-Vine reviews: 38.70% percent:
 
-![](Images/percentage_unpaid_revies.PNG)
-
+![](Images/percentage_unpaid_reviews.PNG)
 
 ## Summary
 51% of the reviews in the Vine program were 5 stars reviews whereas the percentage in the non-Vine reviews is only 39%. This describes a positivity bias for reviews in the Vine program.
