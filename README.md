@@ -11,16 +11,16 @@ Software: Google Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS
 ## Created 4 tables on pgAdmin4
 
 Customers_table (customers_df)
-![](Images/customers_table.PNG)
+![1  customers_table](https://user-images.githubusercontent.com/73545138/111931512-bd8da600-8a91-11eb-9bc5-6d3083a8cb2c.PNG)
 
 Products_table (products_df)
-![](Images/products_table.PNG)
+
 
 Review_id_table (review_id_df)
-![](Images/review_id_table.PNG)
+
 
 Vine_table (vine_df)
-![](Images/vine_table.PNG)
+
 
 ## Results
 ### Total number of reviews
@@ -35,18 +35,22 @@ Vine_table (vine_df)
   
 ### Total number of 5-star reviews
 
-5-star Vine reviews: 48 count/
+5-star Vine reviews: 48 count:
+
 ![](Images/5star_paid_reviews.PNG)
 
-5-star Non-Vine reviews: 15,663 count/
+5-star Non-Vine reviews: 15,663 count:
+
 ![](Images/5star_unpaid_reviews.PNG)
 
 ### Percentage of 5-star reviews
 
-Percentage of 5-star Vine reviews: 51.06%/
+Percentage of 5-star Vine reviews: 51.06% percent:
+
 ![](Images/percentage_paid_reviews.PNG)
 
-Percentage of 5-star Non-Vine reviews: 38.70%/
+Percentage of 5-star Non-Vine reviews: 38.70% percent:
+
 ![](Images/percentage_unpaid_reviews.PNG)
 
 ## Summary
