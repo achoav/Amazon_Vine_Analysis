@@ -10,8 +10,9 @@ Software: Google Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS
 
 ## Created 4 tables on pgAdmin4
 
-Customers_table (customers_df)
-![1  customers_table](https://user-images.githubusercontent.com/73545138/111931512-bd8da600-8a91-11eb-9bc5-6d3083a8cb2c.PNG)
+Customers_table (customers_df):
+
+![1  customers_table]
 
 Products_table (products_df)
 
