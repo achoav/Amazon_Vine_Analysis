@@ -13,6 +13,8 @@ Software: Google Colab Notebook (https://colab.research.google.com/), PySpark (e
 
 ## Created 4 tables on pgAdmin4
 
+Also, exported table "VINE_TABLE" to a csv file called VINE_TABLE.CSV
+
 Customers_table (customers_df):
 
 ![1  customers_table](https://user-images.githubusercontent.com/73545138/111931512-bd8da600-8a91-11eb-9bc5-6d3083a8cb2c.PNG)
