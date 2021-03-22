@@ -25,11 +25,12 @@ Vine_table (vine_df)
 ## Results
 ### Total number of reviews
 
-- Vine reviews: 94 count
+- Vine reviews: 94 count:
+
 ![](Images/number_paid_reviews.PNG)
 
+- Non-Vine reviews: 40,471 count:
 
-- Non-Vine reviews: 40,471 count
 ![](Images/number_unpaid_reviews.PNG)
   
 ### Total number of 5-star reviews
